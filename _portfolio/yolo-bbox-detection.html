@@ -1,0 +1,16 @@
+---
+title: "MicroYOLO Person Detection"
+excerpt: "Demo of MicroYOLO person detection on a STM32H743VI ARM Cortex-M7 based microcontroller (OpenMV H7 R2)."
+collection: portfolio
+---
+
+<p>Demo of MicroYOLO person detection on a STM32H743VI ARM Cortex-M7 based microcontroller (OpenMV H7 R2).</p>
+<video width="640" controls>
+    <source src="https://www.cs12.tf.fau.eu/files/2024/02/microYOLO.webm" type="video/webm">
+    Your browser does not support the video tag.
+</video>
+<p>{% for post in site.publications %}
+    {% if post.title == "microYOLO: Towards Single-Shot Object Detection on Microcontrollers" %}
+        {% include reference.html %}    
+    {% endif %}
+  {% endfor %}</p>

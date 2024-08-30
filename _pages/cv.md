@@ -20,7 +20,7 @@ Education
 
 Work experience
 ======
-* **2022 - present: PhD Student at Friedrich-Alexander-Universität Erlangen-Nürnberg, Computer Science Department 12 and Fraunhofer IIS, Group Efficient AI**
+* **2022 - present: PhD Student at Friedrich-Alexander-Universität Erlangen-Nürnberg, Department Hardware-Software-Co-Design and Fraunhofer IIS, Group Efficient AI**
   * Automated design, compression, and deployment of deep neural networks (DNNs) on Cortex-M microcontrollers for image and time series classification and regression tasks
   * On-device training of fully quantized DNNs on Cortex-M microcontrollers
   * Design, implementation, and maintenance of three demonstrators for live audio classification, object detection, and on-device training of DNNs on Cortex-M microcontrollers

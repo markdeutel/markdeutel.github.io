@@ -1,0 +1,12 @@
+---
+title: "Keyword Spotting"
+excerpt: "This demonstration shows a deep neural network running on an Arduino Nano 33 BLE Sense microcontroller performing keyword spotting. The DNN can distinguish 36 different spoken keywords (Pete Warden's Speech Commands dataset), infers at about 800ms per 1 second audio sample, and requires 190KB of ROM and 111KB of RAM."
+collection: portfolio
+---
+<p>This short TinyML demonstration shows a deep neural network running on an Arduino Nano 33 BLE Sense microcontroller performing keyword spotting. The DNN can distinguish 36 different spoken keywords (Pete Warden's Speech Commands dataset), infers at about 800ms per 1 second audio sample, and requires 190KB of ROM and 111KB of RAM.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yIn_KUDY0lA?si=SIrrLgWA2x38dK9v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>{% for post in site.publications %}
+    {% if post.title == "Energy-efficient Deployment of Deep Learning Applications on Cortex-M based Microcontrollers using Deep Compression" %}
+        {% include reference.html %}    
+    {% endif %}
+  {% endfor %}</p>

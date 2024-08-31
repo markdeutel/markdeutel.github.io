@@ -5,10 +5,13 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-Here you can find showcases of some of the work I have done as part of my research. Just click on the links to learn more and watch the demo videos.
+<div class="wordwrap">Here you can find showcases of some of the work I have done as part of my research. Just click on the links to learn more and watch the demo videos.</div>
+
+{% if site.author.youtube %}
+  <div class="wordwrap">You can also find all demo videos on <a href="https://www.youtube.com/{{ site.author.youtube }}">my YouTube channel</a>.</div>
+{% endif %}
 
 {% include base_path %}
-
 
 {% for post in site.portfolio %}
   {% include archive-single.html %}

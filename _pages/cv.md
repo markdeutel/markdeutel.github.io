@@ -67,6 +67,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-<!-- Service and leadership
+Service
 ======
-* Currently signed in to 43 different slack teams -->
+* I have served as a reviewer for NeurIPS'24, TECS, and JRTIP, and I am currently serving as a reviewer for ICLR'25.

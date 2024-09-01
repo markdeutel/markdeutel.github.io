@@ -18,7 +18,7 @@ My work focuses on the efficient design of deep neural networks (DNNs) for use o
 TinyML and Edge AI
 ===
 
-Artificial intelligence and self-learning edge systems are becoming increasingly important in business, both for process automation and for analyzing large amounts of data. Until now, a common approach has been to connect these intelligent edge systems to a cloud where AI inference is offloaded, since most AI models, and especially deep neural networks (DNNs), require a lot of computing power that is not available at the edge.
+Artificial intelligence and self-learning edge systems are becoming increasingly important in business, both for process automation and for analyzing large amounts of data. Until now, a common approach has been to connect these intelligent edge systems to a cloud where AI inference is offloaded, since most AI models, and especially DNNs, require a lot of computing power that is not available at the edge.
 
 TinyML is an area of research that seeks to move AI inference and training to the edge by making AI models more efficient. The benefits are many: First, processing data closer to sensors and on smaller, more power-efficient microcontrollers significantly reduces power consumption, making AI both cheaper and greener. Second, inferring data at the edge reduces round-trip times from data acquisition to prediction by eliminating the need to communicate to a server over a potentially error-prone network. Third, edge AI enhances security, as recorded data that may be sensitive, such as the likelihood or voice of people, is processed locally on the sensor node and never stored on an external cloud or server.
 

@@ -7,6 +7,7 @@ excerpt: "Large Deep Neural Networks (DNNs) are the backbone of today's artifici
 date: 2022-03-20
 venue: 'MBMV 2023; 26th Workshop'
 paperurl: 'https://arxiv.org/pdf/2205.10369'
+slidesurl: '../files/MBMV_TinyML.pdf'
 citation: 'Deutel, M., Woller, P., Mutschler, C., & Teich, J. (2023, March). Energy-efficient Deployment of Deep Learning Applications on Cortex-M based Microcontrollers using Deep Compression. In MBMV 2023; 26th Workshop (pp. 1-12). VDE.'
 ---
 

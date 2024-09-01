@@ -1,11 +1,15 @@
 ---
 permalink: /
-title: "Hi! I am Mark,"
+title: "About"
+show_title: false
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+Hi! I am Mark,
+===
 
 a scientific researcher working at [Friedrich-Alexander-Universität of Erlangen-Nürnberg (FAU)](https://www.fau.eu/) in the department of [Hardware-Software-Co-Design](https://www.cs12.tf.fau.eu/). I am also affiliated with the [Fraunhofer Institute for Integrated Circuits IIS](https://www.iis.fraunhofer.de/) in Nürnberg where I am a researcher in the [group "Effient-AI"](https://www.iis.fraunhofer.de/de/ff/lv/dataanalytics/tinyml.html).
 

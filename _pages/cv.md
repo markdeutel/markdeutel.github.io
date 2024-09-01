@@ -11,6 +11,7 @@ redirect_from:
 
 Education
 ======
+* **2022 - present:  PhD Student at Friedrich-Alexander-Universität Erlangen-Nürnberg, Department Hardware-Software-Co-Design**
 * **2019 - 2021: M.S. in Computer Science, Friedrich-Alexander-Universität Erlangen-Nürnberg**
   * Thesis: Energy Efficient Deployment of Deep Learning Applications on Restricted Hardware using Deep Compression (in cooperation with Fraunhofer IIS Nuremberg)
   * Relevant Coursework: Artificial Intelligence, Deep Learning, Operating Systems Design, Distributed Systems, Virtual Machines
@@ -20,7 +21,7 @@ Education
 
 Work experience
 ======
-* **2022 - present: PhD Student at Friedrich-Alexander-Universität Erlangen-Nürnberg, Department Hardware-Software-Co-Design and Fraunhofer IIS, Group Efficient AI**
+* **2022 - present: Research Assistant at Friedrich-Alexander-Universität Erlangen-Nürnberg, Department Hardware-Software-Co-Design and Fraunhofer IIS, Group Efficient AI**
   * Automated design, compression, and deployment of deep neural networks (DNNs) on Cortex-M microcontrollers for image and time series classification and regression tasks
   * On-device training of fully quantized DNNs on Cortex-M microcontrollers
   * Design, implementation, and maintenance of three demonstrators for live audio classification, object detection, and on-device training of DNNs on Cortex-M microcontrollers
@@ -30,7 +31,7 @@ Work experience
   * Duties includes: Updates and improvements to template
   * Evaluation of different parameter reduction, quantization, and graph optimization techniques for deep neural networks
 
-* **2015 - 2020: Working student at Siemens AG, Erlangen**
+* **2015 - 2020: Working Student at Siemens AG, Erlangen**
   * Design, development and integration of a webservice into the open, cloud based IoT system Mindsphere
   * Continuous delivery and maintenance of the webservice as a tool used by Mindsphere´s system test and quality assurance departments
   * Implementation of an Android application and a web UI for the webservice

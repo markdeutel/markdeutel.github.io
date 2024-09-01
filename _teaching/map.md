@@ -4,7 +4,6 @@ collection: teaching
 type: "Seminar"
 permalink: /teaching/map
 venue: "Friedrich-Alexander-Universität Erlangen-Nürnberg, Department Hardware-Software-Co-Design"
-date: 2024-01-01
 ---
 
 Processors with multiple cores are already very widespread today. Examples of such architectures include modern graphics processors, which can consist of up to 4608 so-called streaming processors and 576 tensor computing units. Multi-core processors have a very high theoretical computing power and therefore open up fascinating new possibilities in scientific and other computationally intensive areas, such as multimedia applications, medical technology or finance. However, in order to fully exploit this performance, an efficient mapping of algorithms to the architecture of the respective multi-core processor must be found. Compared to traditional single-core processors, this often requires a radical rethink in programming.

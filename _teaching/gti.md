@@ -4,7 +4,6 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/gti
 venue: "Friedrich-Alexander-Universität Erlangen-Nürnberg, Department Hardware-Software-Co-Design"
-date: 2024-01-01
 ---
 
 This lecture deals with the implementation of algorithms in hard and software and the processing of data with the help of computers.

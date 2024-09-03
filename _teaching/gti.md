@@ -1,6 +1,7 @@
 ---
 title: "Exercise and Extended Exercise Grundlagen der Technischen Informatik"
 collection: teaching
+category: lecture
 type: "Undergraduate course"
 permalink: /teaching/gti
 venue: "Friedrich-Alexander-Universität Erlangen-Nürnberg, Department Hardware-Software-Co-Design"

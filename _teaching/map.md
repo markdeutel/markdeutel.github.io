@@ -1,6 +1,7 @@
 ---
 title: "Multi-Core Architectures and Programming"
 collection: teaching
+category: seminar
 type: "Seminar"
 permalink: /teaching/map
 venue: "Friedrich-Alexander-Universität Erlangen-Nürnberg, Department Hardware-Software-Co-Design"

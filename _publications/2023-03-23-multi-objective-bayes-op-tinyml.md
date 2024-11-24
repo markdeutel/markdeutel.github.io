@@ -7,6 +7,7 @@ excerpt: "Deploying Deep Neural Networks (DNNs) on microcontrollers (TinyML) is 
 date: 2023-03-23
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/pdf/2305.14109'
+highlight: '../files/moopt_highlight.png'
 citation: 'Deutel, M., Kontes, G., Mutschler, C., & Teich, J. (2023). Combining Multi-Objective Bayesian Optimization with Reinforcement Learning for TinyML. arXiv preprint arXiv:2305.14109.'
 ---
 

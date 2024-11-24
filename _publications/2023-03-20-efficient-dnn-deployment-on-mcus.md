@@ -9,6 +9,7 @@ venue: 'MBMV 2023; 26th Workshop'
 paperurl: 'https://ieeexplore.ieee.org/document/10173060'
 openurl: 'https://arxiv.org/pdf/2205.10369'
 slidesurl: '../files/MBMV_TinyML.pdf'
+highlight: '../files/energy_efficient_deployment_highlight.png'
 citation: 'Deutel, M., Woller, P., Mutschler, C., & Teich, J. (2023, March). Energy-efficient Deployment of Deep Learning Applications on Cortex-M based Microcontrollers using Deep Compression. In MBMV 2023; 26th Workshop (pp. 1-12). VDE.'
 ---
 

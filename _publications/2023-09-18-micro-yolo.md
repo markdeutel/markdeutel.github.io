@@ -8,6 +8,7 @@ date: 2023-09-18
 venue: 'ECML PKDD Conference 2023, at the 4th Workshop on IoT, Edge, and Mobile for Embedded Machine Learning'
 paperurl: 'https://arxiv.org/pdf/2408.15865'
 slidesurl: '../files/tinyYOLO_item23_presentation.pdf'
+highlight: '../files/microyolo_highlight.png'
 citation: 'Deutel, M., Mutschler, C., & Teich, J. (2023). microYOLO: Towards Single-Shot Object Detection on Microcontrollers. In ECML PKDD Conference 2023, at the 4th Workshop on IoT, Edge, and Mobile for Embedded Machine Learning.'
 ---
 

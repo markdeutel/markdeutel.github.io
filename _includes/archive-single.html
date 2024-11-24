@@ -47,9 +47,16 @@
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+      {% if post.highlight %}
+        <div>
+          <img src="{{ post.highlight }}" width="40%" style="float: left; margin: 0 10px 0 0;"/>
+          <div style="text-align: justify;"><p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p></div>
+        </div>
+      {% else %}
+        <div style="text-align: justify;"><p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p></div>
+      {% endif %}
     {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    <div style="text-align: justify;"><p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p></div>
     {% endif %}
     {% if post.citation and post.paperurl and post.slidesurl and post.openurl %}
       <p style="font-size: smaller">Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.openurl }}">Download Paper (open)</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>

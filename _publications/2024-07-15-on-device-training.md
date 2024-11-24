@@ -8,6 +8,7 @@ date: 2024-07-15
 venue: 'IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems'
 paperurl: 'https://ieeexplore.ieee.org/document/10726519'
 openurl: 'https://arxiv.org/pdf/2407.10734'
+highlight: '../files/on_device_training_highlight.png'
 citation: 'M. Deutel, F. Hannig, C. Mutschler and J. Teich, "On-Device Training of Fully Quantized Deep Neural Networks on Cortex-M Microcontrollers," in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems.'
 ---
 

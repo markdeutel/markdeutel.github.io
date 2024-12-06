@@ -47,7 +47,7 @@ layout: default
       <section class="page__content" itemprop="text">
         {% if page.highlight %}
           <div>
-            <img src="{{ page.highlight }}" width="50%" style="float: left; margin: 0 10px 0 0;"/>
+            <img src="{{ page.highlight }}" style="float: left; margin: 0 10px 0 0; width: 100%; max-width: 320px"/>
             <div style="text-align: justify;">{{ content }}</div>
           </div>
         {% else %}

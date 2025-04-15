@@ -69,4 +69,4 @@ Teaching
   
 Service
 ======
-* I have served as a reviewer for NeurIPS'24, TECS, and JRTIP, and I am currently serving as a reviewer for ICLR'25.
+* I have served as a reviewer for NeurIPS'24, ICLR'25, TECS, and JRTIP.

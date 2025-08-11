@@ -19,7 +19,7 @@ Education
   * Thesis: Android Inter Process Communication Fuzzing
   * Relevant Coursework: Computer Graphics, Embedded Systems, Hyperperformance Computing
 
-Work experience
+Work Experience
 ======
 * **2022 - present: Research Assistant at Friedrich-Alexander-Universität Erlangen-Nürnberg, Department Hardware-Software-Co-Design and Fraunhofer IIS, Group Efficient AI**
   * Automated design, compression, and deployment of deep neural networks (DNNs) on Cortex-M microcontrollers for image and time series classification and regression tasks

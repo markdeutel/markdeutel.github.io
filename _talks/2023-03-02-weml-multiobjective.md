@@ -6,7 +6,7 @@ type: "Talk"
 permalink: /talks/2023-03-02-weml-multiobjective
 venue: "4th Workshop on Embedded Machine Learning - WEML2023"
 date: 2023-03-02
-location: "Heidelberg University, Germany"
+location: "University Heidelberg, Germany"
 ---
 
 This presentation discusses efficient design and deployment of DNNs on microcontroller units (MCUs) using both pruning and quantization techniques. It also provides an overview of automated hardware-aware DNN design for MCU targets using multi-objective Bayesian optimization.    

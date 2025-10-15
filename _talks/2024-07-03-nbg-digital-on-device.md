@@ -6,7 +6,7 @@ type: "Poster"
 permalink: /talks/2024-07-03-nbg-digital-on-device
 venue: "Embedded Talk: Next Generation IoT - Kommunikation & KI"
 date: 2024-07-03
-location: "Nürnberg, Germany"
+location: "Fraunhofer IIS Nürnberg, Germany"
 ---
 
 This poster shows how fully quantized DNNs deployed on Cortex-M microcontroller units (MCUs) can be either fine-tuned or even retrained from scratch. DNN training on MCUs poses additional challenges due to the tight resource constraints of such systems, and this poster discusses a methodology to overcome them.     

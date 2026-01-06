@@ -7,7 +7,7 @@ excerpt: "Training and fine-tuning deep neural networks (DNNs) to adapt to new a
 date: 2025-12-31
 venue: 'IEEE 18th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)'
 paperurl: 'https://doi.org/10.1109/MCSoC67473.2025.00079'
-#openurl: 'https://doi.org/10.1145/3712255.3734232'
+openurl: '../files/MCSoC25_VAEs_on_Microcontrollers_camera_ready.pdf'
 slidesurl: '../files/MCSoC_Unuspervised_On_Device_Deutel.pdf'
 highlight: '../files/unsupervised_on_device_overview.png	'
 citation: 'Deutel, M., Plinge, A., Seuß, D., Mutschler, C., Hannig, F., & Teich, J. (2025). Unsupervised Learning of Variational Autoencoders on Cortex-M Microcontrollers. IEEE 18th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC).'

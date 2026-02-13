@@ -1,0 +1,16 @@
+---
+title: "Recent Trends in Edge AI: Efficient Design, Training and Deployment of Machine Learning Models"
+collection: publications
+category: books
+permalink: /publication/recent-trends-edge-ai
+excerpt: "With a rising demand for ubiquitous smart systems, processing and interpreting large quantities of data generated on the edge at a high velocity is becoming an increasingly important challenge. Machine learning (ML) models such as Deep Neural Networks (DNNs) are an essential tool of today’s artificial intelligence due to their ability to make accurate predictions given complex tasks and environments. However, Deep Learning is computationally complex and energy intensive. This seems to contradict the characteristics of many edge devices, which have only limited memory, computational resources, and energy budget available. To overcome this challenge, an efficient ML model design is crucial that incorporates available optimization techniques from hardware, software, and methodological perspective to enable energy-efficient deployment and operation on the edge. This work comprehensively summarizes recent techniques for training, optimizing, and deploying ML models targeting edge devices. We discuss different strategies for finding deployable ML models, scalable DNN architectures, neural architecture search, and multi-objective optimization approaches, to enable feasible trade-offs considering available resources and latency. Furthermore, we give insight into DNN compression methods such as quantization and pruning. We conclude by investigating different forms of cascaded processing, from simple multi-level approaches to highly branched compute graphs and early-exit DNNs."
+date: 2026-01-27
+venue: 'Charting the Intelligence Frontiers – Edge AI Systems Nexus'
+paperurl: 'https://dx.doi.org/10.1201/9788743808862-9'
+#openurl: 'https://doi.org/10.1145/3712255.3734232'
+#slidesurl: '../files/MCSoC_Unuspervised_On_Device_Deutel.pdf'
+#highlight: '../files/unsupervised_on_device_overview.png	'
+citation: 'Deutel, M., Mallah M., Wissing J., Scheele, S. (2026). Recent Trends in Edge AI: Efficient Design, Training and Deployment of Machine Learning Models. Charting the Intelligence Frontiers – Edge AI Systems Nexus.'
+---
+
+Training and fine-tuning deep neural networks (DNNs) to adapt to new and unseen data at the edge has recently attracted considerable research interest. However, most work to date has focused on supervised learning of pre-trained, quantized DNNs. Although these proposed techniques are advantageous in enabling DNN training even on resource-constrained devices such as microcontroller units (MCUs), they do not address the issue that large amounts of labeled data are required to perform supervised training. Moreover, while data are readily available at the edge, ground-truth labels are typically not. In this work, we explore variational autoencoders as a way to train unsupervised, i.e., without labels, feature extractors for image classification on a Cortex-M MCU. Using these feature extractors, we then train classification heads using small labeled representative sets of data to solve classification tasks. Our approach significantly reduces the amount of labeled data required, while enabling full DNN training from scratch on resource-constrained devices.

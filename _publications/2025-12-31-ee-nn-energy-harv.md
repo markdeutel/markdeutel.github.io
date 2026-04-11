@@ -7,7 +7,7 @@ excerpt: "Energy harvesting (EH) is increasingly used in wireless sensor nodes t
 date: 2025-12-31
 venue: 'IEEE 18th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)'
 paperurl: 'https://doi.org/10.1109/MCSoC67473.2025.00066'
-#openurl: '../files/MCSoC25_VAEs_on_Microcontrollers_camera_ready.pdf'
+openurl: '../files/paper_mcsoc25_ee.pdf'
 #slidesurl: '../files/MCSoC_Unuspervised_On_Device_Deutel.pdf'
 highlight: '../files/overview_ee_energy_harv.png	'
 citation: 'Sixdenier, P., Deutel, M., & Teich, J. (2025). Early-Exit Neural Architecture Search for Energy-Harvesting Edge Computing. IEEE 18th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC).'

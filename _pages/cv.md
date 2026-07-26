@@ -42,12 +42,9 @@ Work Experience
   
 <!-- Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3 -->
+* Python, PyTorch
+* C/C++, Embedded Programming
+* Latex -->
 
 Publications
 ------------
@@ -61,12 +58,12 @@ Publications
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul> -->
   
-Teaching
+<!-- Teaching
 --------
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Service
 -------
-* I have served as a reviewer for NeurIPS'24 and '25, ICLR'25, ACM Transactions on Embedded Computing Systems, IEEE Internet of Things Journal, and Springer Journal of Real-Time Image Processing.
+* I have served as a reviewer for NeurIPS'24 '25 and '26, ICLR'25, TMLR, ACM Transactions on Embedded Computing Systems, IEEE Internet of Things Journal, and Springer Journal of Real-Time Image Processing.

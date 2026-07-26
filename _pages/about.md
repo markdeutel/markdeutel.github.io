@@ -11,7 +11,7 @@ redirect_from:
 Hi! I am Mark,
 ===
 
-a scientific researcher working at [Friedrich-Alexander-Universität of Erlangen-Nürnberg (FAU)](https://www.fau.eu/) at the chair of [Hardware-Software-Co-Design](https://www.cs12.tf.fau.eu/). I am also affiliated with the [Fraunhofer Institute for Integrated Circuits IIS](https://www.iis.fraunhofer.de/) in Nürnberg where I am a researcher in the [group "Effient-AI"](https://www.iis.fraunhofer.de/de/ff/lv/dataanalytics/tinyml.html).
+a scientific researcher working at the [Fraunhofer Institute for Integrated Circuits IIS](https://www.iis.fraunhofer.de/) in Nürnberg where I am a researcher in the group ["Effient-AI"](https://www.iis.fraunhofer.de/de/ff/lv/dataanalytics/tinyml.html). I am also affiliated with [Friedrich-Alexander-Universität of Erlangen-Nürnberg (FAU)](https://www.fau.eu/) where I am currently finalizing my PhD at the chair of [Hardware-Software-Co-Design](https://www.cs12.tf.fau.eu/).
 
 My work focuses on the efficient design of deep neural networks (DNNs) for use on embedded edge devices, mainly Cortex-M microcontrollers (MCUs). This research area is also referred to as "Efficient AI" or "Edge AI". Since MCUs are generally resource-constrained, while most DNNs are extremely resource-intensive, my main research interest is to optimize the trade-off between resource requirements of DNNs and the accuracies they can achieve to enable their deployment on embedded systems. I focus heavily on hardware-aware neural architecture search (NAS), DNN compression, quantization techniques, and MCU-specific optimization. Recently, I have also added on-device training of fully quantized DNNs to the mix.
 

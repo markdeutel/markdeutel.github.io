@@ -56,7 +56,9 @@ layout: default
           <div style="text-align: justify;">{{ content }}</div>
         {% endif %}
 
-        {% if page.citation and page.paperurl and page.slidesurl and page.openurl %}
+        {% if page.citation and page.paperurl and page.slidesurl and page.openurl and page.posterurl %}
+          <p style="font-size: smaller">Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.openurl }}">Download Paper (open)</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.posterurl }}">Download Poster</a></p>
+        {% elsif page.citation and page.paperurl and page.slidesurl and page.openurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.openurl }}">Download Paper (open)</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>

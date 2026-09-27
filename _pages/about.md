@@ -26,7 +26,7 @@ Efficient AI is an area of research that seeks to move AI inference and training
 
 To enable AI inference at the edge, efficient AI research focuses on efficient DNN design, training, and compression. This amounts to a multi-objective optimization problem. AI performance, e.g., classification accuracy, should be maximized, while computational complexity and memory requirements should be minimized to meet the resource constraints of the targeted edge device. Techniques to achieve this trade-off include DNN pruning, quantization, layer fusion, and hardware-aware neural architecture search.
 
-For more information, check out my [talks](./talks.html) and [publications](./publications.html). If you want to have a look at Edge AI at work, you can have a look at my [demo videos](./portfolio.html).
+For more information, check out my [talks](./talks.html) and [publications](./publications.html). If you want to have a look at Edge AI at work, you can have a look at my [demo videos](./projects.html).
 
 My background and history
 ===

@@ -1,0 +1,22 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+<div class="wordwrap">Here you can find showcases of some of the work I have done as part of my research. Just click on the links to learn more and watch the videos.</div>
+
+{% if site.author.youtube %}
+  <div class="wordwrap" style="text-align: justify;">You can also find all videos on <a href="https://www.youtube.com/{{ site.author.youtube }}">my YouTube channel</a>.</div>
+{% endif %}
+
+{% include base_path %}
+
+<div class="card__continer">
+  {% assign itemtype = "card" %}
+  {% for post in site.projects %}
+    {% include archive-single.html type = itemtype %}
+  {% endfor %}
+</div>
+

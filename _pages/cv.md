@@ -37,8 +37,9 @@ Work Experience
   * Implementation of an Android application and a web UI for the webservice
   * Implementation of automated UI tests based on the Selenium framework
 
-* **Summer 2015: Internship at Siemens AG, Erlangen**
-  * Design and Development of a webservice for easy test analytics based on Google's ACC-model
+Service
+-------
+* I have served as a reviewer for NeurIPS'24 '25 and '26, ICLR'25, TMLR, ACM Transactions on Embedded Computing Systems, IEEE Internet of Things Journal, and Springer Journal of Real-Time Image Processing.
   
 <!-- Skills
 ======
@@ -63,7 +64,3 @@ Publications
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
-  
-Service
--------
-* I have served as a reviewer for NeurIPS'24 '25 and '26, ICLR'25, TMLR, ACM Transactions on Embedded Computing Systems, IEEE Internet of Things Journal, and Springer Journal of Real-Time Image Processing.

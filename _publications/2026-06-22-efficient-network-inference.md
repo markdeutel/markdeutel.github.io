@@ -2,7 +2,7 @@
 title: "Efficient Network Inference via Hardware-Aware Architecture Search, Model Pruning & Quantization"
 collection: publications
 category: conferences
-permalink: /publication/efficient-network-inference
+permalink: /publications/efficient-network-inference
 excerpt: "Embedded global navigation satellite system (GNSS) interference monitoring requires fast and memory-efficient inference to process large volumes of raw in-phase and quadrature (IQ) samples in real time. At the same time, increasingly expressive deep neural networks (DNNs) are needed for robust interference classification and characterization across diverse signal conditions. This creates a fundamental tension between predictive performance and deployability on resource-constrained hardware. In this paper, we investigate efficient network inference for GNSS interference characterization using iterative structured pruning, post-training static quantization, and hardware-aware zero-shot neural architecture search (NAS). Starting from MCUNet as a compact baseline, we analyze how model compression and automated architecture optimization affect model size, computational complexity, and memory usage while maintaining task performance. Experiments on a GNSS interference dataset, covering both classification and generalized characterization, show the benefits of combining compression and hardware-aware design for embedded deployment. Our results provide practical guidance for developing compact machine learning (ML) models for real-time GNSS interference monitoring on embedded platforms (iMXRT1062 MCU, Raspberry Pi Zero 2W, and Raspberry Pi 5)."
 date: 2026-06-22
 venue: 'arXiv preprint, arXiv.2606.23210'

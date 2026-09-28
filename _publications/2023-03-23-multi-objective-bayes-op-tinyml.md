@@ -2,7 +2,7 @@
 title: "Combining Multi-Objective Bayesian Optimization with Reinforcement Learning for TinyML"
 collection: publications
 category: manuscripts
-permalink: /publication/multi-objective-bayes-op-tinyml
+permalink: /publications/multi-objective-bayes-op-tinyml
 excerpt: "Deploying deep neural networks (DNNs) on microcontrollers (TinyML) is a common trend to process the increasing amount of sensor data generated at the edge, but in practice, resource and latency constraints make it difficult to find optimal DNN candidates. Neural architecture search (NAS) is an excellent approach to automate this search and can easily be combined with DNN compression techniques commonly used in TinyML. However, many NAS techniques are not only computationally expensive, especially hyperparameter optimization (HPO), but also often focus on optimizing only a single objective, e.g., maximizing accuracy, without considering additional objectives such as memory requirements or computational complexity of a DNN, which are key to making deployment at the edge feasible. In this paper, we propose a novel NAS strategy for TinyML based on multi-objective Bayesian optimization (MOBOpt) and an ensemble of competing parametric policies trained using Augmented Random Search (ARS) reinforcement learning (RL) agents. Our methodology aims at efficiently finding tradeoffs between a DNN’s predictive accuracy, memory requirements on a given target system, and computational complexity. Our experiments show that we consistently outperform existing MOBOpt approaches on different datasets and architectures such as ResNet-18 and MobileNetV3."
 date: 2025-01-23
 venue: 'ACM Transactions on Evolutionary Learning and Optimization'

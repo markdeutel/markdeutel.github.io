@@ -1,0 +1,29 @@
+/* Color codes used for the theme */
+$gray                       : #7a8288;
+$dark-gray                  : mix(#000, $gray, 40%);
+$darker-gray                : mix(#000, $gray, 60%);
+$light-gray                 : mix(#fff, $gray, 50%);
+
+/* Color codes used for the site */
+$danger-color               : #ee5f5b;
+$info-color                 : #2f7f93;
+$notice-color               : #7a8288;
+$success-color              : #62c462;
+$warning-color              : #f89406;
+
+html[data-theme="dark"] {
+    --global-base-color                 : #474747;
+    --global-bg-color                   : #474747;
+    --global-border-color               : #{$light-gray};
+    --global-code-background-color      : #fafafa;
+    --global-code-text-color            : #{$darker-gray};
+    --global-fig-caption-color          : #{$dark-gray};
+    --global-link-color                 : #2f7f93;
+    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
+    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
+    --global-masthead-link-color        : #ffffff;
+    --global-masthead-link-color-hover  : mix(#fff, #474747, 80%);
+    --global-text-color                 : #ffffff;
+    --global-text-color-light           : #{$light-gray};
+    --global-thead-color                : mix(#fff, #474747, 90%);
+}

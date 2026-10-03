@@ -5,17 +5,17 @@
 // Detect OS/browser preference
 const browserPref = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-// Determine the computed theme, which can be "dark" or "light".
+// Determine the computed theme, which can be "dark" or "default".
 function determineComputedTheme() {
-  // Determine the expected state of the theme toggle, which can be "dark", "light", or default "system"
+  // Determine the expected state of the theme toggle, which can be "dark", "default", or "system"
   let themeSetting = localStorage.getItem("theme");
-  themeSetting = (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
+  themeSetting = (themeSetting != "dark" && themeSetting != "default" && themeSetting != "system") ? "system" : themeSetting;
 
   // Return the setting if set, or use the browser preference
   if (themeSetting != "system") {
     return themeSetting;
   }
-  return browserPref ? "dark" : "light";
+  return browserPref ? "dark" : "default";
 }
 
 $(document).ready(function() {
@@ -24,10 +24,10 @@ $(document).ready(function() {
     const use_theme = theme || determineComputedTheme();
     if (use_theme === "dark") {
       $("html").attr("data-theme", "dark");
-      $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
+      $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
     } else if (use_theme === "default") {
       $("html").removeAttr("data-theme");
-      $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
+      $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
     }
   }
   setTheme();

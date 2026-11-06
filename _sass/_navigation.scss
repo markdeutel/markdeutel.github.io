@@ -48,6 +48,10 @@
 
   a {
     color: var(--global-link-color);
+
+    &:hover {
+      color: var(--global-link-color-hover);
+    }
   }
 
   .current {
